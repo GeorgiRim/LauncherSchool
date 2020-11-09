@@ -1,4 +1,4 @@
-FROM openjdk:8-alpine
+FROM openjdk:8
 #COPY ./launcher/ /usr/launcher/
 WORKDIR /usr/launcher
 #VOLUME ./launcher:/user/launcher/data
