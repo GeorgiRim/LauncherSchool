@@ -5,5 +5,4 @@ WORKDIR /usr/launcher
 #ADD ./launcher/* /user/launcher/
 RUN apt update && apt install openjfx -y && curl -s http://mirror.keeperjerry.ru/launcher/v1/setup.sh | sh
 #RUN javac Main.java
-
 CMD ["java", "-Xmx512M", "-jar", "LaunchServer.jar"]
